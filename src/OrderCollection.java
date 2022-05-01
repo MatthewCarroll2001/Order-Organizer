@@ -57,6 +57,10 @@ public class OrderCollection {
             }
         }
     }
+    
+    public int getTotalCount() {
+    	return totalCount;
+    }
 
     public String toString(){
         String orders = "\n";
